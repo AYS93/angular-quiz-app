@@ -1,0 +1,31 @@
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li .card:hover {
+    border: 1px solid yellowgreen;
+}
+
+ol {
+    padding: 0;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

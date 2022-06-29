@@ -1,0 +1,59 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Школа ПТДГ језика за говорнике БСХЦ језика</h1>
+    <p class="col-md-8 fs-4">Школа ПТДГ језика је пројекат намењен "оживљавању" поменутог језика како код омладине области
+        у којој се говори, која га све мање разуме, тако и код старијих који су га помало и заборавили. <br>
+        На сајту можете наћи разноврсне квизове који изграђују ваш вокабулар и тестирају ваше познавање ПТДГ граматике.
+    </p>
+    <h4>Правила квизова:</h4>
+    <ol>
+        <li>Време за одговор на свако појединачно питање у квизу је један минут</li>
+        <li>Сваки тачан одговор се награђује са 10 поена</li>
+        <li>Сваки нетачан одговор се кажњава са -10 поена</li>
+        <li>Питање се може прескочити и отићи на следеће, али се штоперица не ресетује</li>
+        <li>Могуће је вратити се на претходно питање, али се то кажњава са -10 поена</li>
+        <li>Уколико желите приступ свим квизовима морате бити пријављени на ваш налог</li>
+    </ol>
+    <h1 style="font-family: cursive; text-align: center;">срећно учење!</h1>
+
+    <!--<ng-container *ngIf="nameKey === undefined">-->
+    <div class="name col-md-4 my-3">
+        <label for="">Корисничко име</label>
+        <input #name type="text" class="form-control">
+        <label for="">Лозинка</label>
+        <input type="password" class="form-control">
+        <br>
+        <button class="btn btn-success" (click)="startQuiz()">Пријава</button>
+    </div>
+    <p>Немате налог? Региструјте се <a routerLink="/registration" style="text-decoration: none;">овде</a>.</p>
+    <!--</ng-container>-->
+    <!--<button class="btn btn-success btn-lg" routerLink="/question" (click)="startQuiz()">start quiz!</button>
+    <p>(again, we will have different quizes displayed here for user to choose from)</p>-->
+    <hr>
+    <div>
+        <h2 class="display-5 fw-bold">Квизови</h2>
+        <div>
+            <h3>Грађење речника</h3>
+            <button class="btn btn-success btn-lg">1</button>
+            <span>- todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/zivotinje">2</button>
+            <span> - животиње</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/kuhinja">3</button>
+            <span> - кухиња</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">4</button>
+            <span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <br>
+        <div>
+            <h3>Квизови из граматике</h3>
+            <button class="btn btn-success btn-lg">1</button><span>- todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">2</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">3</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">4</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">6</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    <hr>
+</div>
+
+

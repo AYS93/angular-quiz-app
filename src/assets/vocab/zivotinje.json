@@ -1,0 +1,17 @@
+{
+    "questions": [{
+            "questionText": "Споји појам са одговарајућом сликом: \"ешѐк\"",
+            "options": [{
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg",
+                    "correct": true
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Horse_holstein.JPG"
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Bactrian_Camel.jpg"
+                }
+            ],
+            "explanation": ""
+        }]
+}
