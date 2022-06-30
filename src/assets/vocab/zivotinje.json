@@ -214,5 +214,41 @@
                 }
             ],
             "explanation": ""
+        },
+        {
+            "questionText": "Споји појам са одговарајућом сликом: \"крътѝњък\"",
+            "options": [{
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Kret_mole.jpg/962px-Kret_mole.jpg",
+                    "correct": true
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mustela_nivalis_-British_Wildlife_Centre-4.jpg/899px-Mustela_nivalis_-British_Wildlife_Centre-4.jpg"
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Water_vole_-_Arvicola_amphibius_2a.jpg/960px-Water_vole_-_Arvicola_amphibius_2a.jpg"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Споји појам са одговарајућом сликом: \"кръљѐж\"",
+            "options": [{
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/9/93/Black_scorpion.jpg"
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/2/29/Amblyomma_americanum_tick.jpg",
+                    "correct": true
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
+                },
+                {
+                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Meeresschildkr%C3%B6te.jpg/1024px-Meeresschildkr%C3%B6te.jpg"
+                }
+            ],
+            "explanation": ""
         }]
 }

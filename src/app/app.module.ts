@@ -10,6 +10,7 @@ import { ChangeBgDirective } from './change-bg.directive';
 import { RegistrationComponent } from './registration/registration.component';
 import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
+import { InsektiComponent } from './kvizovi/insekti/insekti.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
     ChangeBgDirective,
     RegistrationComponent,
     KuhinjaComponent,
-    ZivotinjeComponent
+    ZivotinjeComponent,
+    InsektiComponent
   ],
   imports: [
     BrowserModule,
