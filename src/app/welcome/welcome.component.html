@@ -1,6 +1,7 @@
 <div class="container bg-light py-5">
     <h1 class="display-5 fw-bold">Школа ПТДГ језика за говорнике БСХЦ језика</h1>
-    <p class="col-md-8 fs-4">Школа ПТДГ језика је пројекат намењен "оживљавању" поменутог језика како код омладине области
+    <p class="col-md-8 fs-4">Школа ПТДГ језика је пројекат намењен "оживљавању" поменутог језика како код омладине
+        области
         у којој се говори, која га све мање разуме, тако и код старијих који су га помало и заборавили. <br>
         На сајту можете наћи разноврсне квизове који изграђују ваш вокабулар и тестирају ваше познавање ПТДГ граматике.
     </p>
@@ -26,36 +27,75 @@
     </div>
     <p>Немате налог? Региструјте се <a routerLink="/registration" style="text-decoration: none;">овде</a>.</p>
     <!--</ng-container>-->
-    <!--<button class="btn btn-success btn-lg" routerLink="/question" (click)="startQuiz()">start quiz!</button>
-    <p>(again, we will have different quizes displayed here for user to choose from)</p>-->
+
     <hr>
     <div>
-        <h2 class="display-5 fw-bold">Квизови</h2>
-        <div>
-            <h3>Грађење речника</h3>
-            <button class="btn btn-success btn-lg">1</button>
-            <span> - пси (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/zivotinje">2</button>
-            <span> - животиње</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/kuhinja">3</button>
-            <span> - кухиња</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/insekti">4</button>
-            <span> - инсекти</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button>
-            <span> - птице (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <h2 class="display-5 fw-bold">Квизови</h2><br />
+        <div class="row">
+            <h3>Грађење речника</h3><br />
+            <div class="col-md-2 column">
+                <button class="btn btn-success btn-lg">1</button>
+                <span> - пси (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg"
+                    routerLink="/quiz/vocabulary/zivotinje">2</button>
+                <span> - животиње</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg"
+                    routerLink="/quiz/vocabulary/kuhinja">3</button>
+                <span> - кухиња</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg"
+                    routerLink="/quiz/vocabulary/insekti">4</button>
+                <span> - инсекти</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button>
+                <span> - птице (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">6</button>
+                <span> - птице (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">7</button>
+                <span> - птице (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">8</button>
+                <span> - птице (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
         </div>
-        <br>
-        <div>
-            <h3>Квизови из граматике</h3>
-            <button class="btn btn-success btn-lg">1</button><span>- todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">2</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">3</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">4</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">6</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <br /><br />
+        <div class="row">
+            <h3>Квизови из граматике</h3><br />
+            <div class="col-md-2 column">
+            <button class="btn btn-success btn-lg">1</button><span> - todo: kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">2</button><span> - todo:
+                kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">3</button><span> - todo:
+                kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">4</button><span> - todo:
+                kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>    
+            <div class="col-md-2 column">
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button><span> - todo:
+                kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+            <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">6</button><span> - todo:
+                kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
         </div>
     </div>
     <hr>
 </div>
-
-
