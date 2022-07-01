@@ -11,6 +11,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { InsektiComponent } from './kvizovi/insekti/insekti.component';
+import { PticeComponent } from './kvizovi/ptice/ptice.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InsektiComponent } from './kvizovi/insekti/insekti.component';
     RegistrationComponent,
     KuhinjaComponent,
     ZivotinjeComponent,
-    InsektiComponent
+    InsektiComponent,
+    PticeComponent
   ],
   imports: [
     BrowserModule,
