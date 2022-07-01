@@ -75,6 +75,7 @@ export class ZivotinjeComponent implements OnInit {
         this.nextQuestion();
         this.counter = 60;
         this.points -= 10;
+        this.incorrectAnswer++;
         this.getProgressPercent();
       }
     });
