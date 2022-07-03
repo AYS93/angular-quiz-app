@@ -12,6 +12,7 @@ import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { InsektiComponent } from './kvizovi/insekti/insekti.component';
 import { PticeComponent } from './kvizovi/ptice/ptice.component';
+import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PticeComponent } from './kvizovi/ptice/ptice.component';
     KuhinjaComponent,
     ZivotinjeComponent,
     InsektiComponent,
-    PticeComponent
+    PticeComponent,
+    RefleksiSonantnogLComponent
   ],
   imports: [
     BrowserModule,
