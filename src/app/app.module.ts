@@ -14,6 +14,7 @@ import { InsektiComponent } from './kvizovi/insekti/insekti.component';
 import { PticeComponent } from './kvizovi/ptice/ptice.component';
 import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
+import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/radni-glagolski-pridev.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godi
     InsektiComponent,
     PticeComponent,
     RefleksiSonantnogLComponent,
-    SinonimiMeseciUGodiniComponent
+    SinonimiMeseciUGodiniComponent,
+    RadniGlagolskiPridevComponent
   ],
   imports: [
     BrowserModule,

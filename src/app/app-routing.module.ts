@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InsektiComponent } from './kvizovi/insekti/insekti.component';
 import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
 import { PticeComponent } from './kvizovi/ptice/ptice.component';
+import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/radni-glagolski-pridev.component';
 import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
   {path: "quiz/vocabulary/ptice", component: PticeComponent},
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent},
+  {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent}
 ];
 
