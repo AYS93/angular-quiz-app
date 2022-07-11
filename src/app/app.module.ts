@@ -15,6 +15,8 @@ import { PticeComponent } from './kvizovi/ptice/ptice.component';
 import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
 import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/radni-glagolski-pridev.component';
+import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
+import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/
     PticeComponent,
     RefleksiSonantnogLComponent,
     SinonimiMeseciUGodiniComponent,
-    RadniGlagolskiPridevComponent
+    RadniGlagolskiPridevComponent,
+    MlogoS6mSeMuchilaComponent,
+    MlogoS6mSeMuchilaKvizComponent
   ],
   imports: [
     BrowserModule,

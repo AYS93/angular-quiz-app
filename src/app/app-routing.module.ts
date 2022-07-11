@@ -8,6 +8,8 @@ import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refl
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
+import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ const routes: Routes = [
   {path: "quiz/vocabulary/ptice", component: PticeComponent},
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
-  {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent}
+  {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent},
+  {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
+  {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent}
 ];
 
 @NgModule({
