@@ -1,18 +1,63 @@
 {
     "questions": [{
-        "questionText": "\"?",
+        "questionText": "Зашто ԓеб не теја се испече?",
         "options": [{
-                "text": "1",
+                "text": "Што је млого врела цръпуља.",
                 "correct": true
             },
             {
-                "text": "2"
+                "text": "Што не је добро замесен."
             },
             {
-                "text": "3"
+                "text": "Што остину цръпуља."
             },
             {
-                "text": "4"
+                "text": "Што връну дъж."
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Наратор ни дън дънъшъњ не умее да замеси ԓеба.",
+        "options": [{
+                "text": "тачно"
+            },
+            {
+                "text": "нетачно",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Кој га је ишчуваја наратора?",
+        "options": [{
+                "text": "деда"
+            },
+            {
+                "text": "баба"
+            },
+            {
+                "text": "башта",
+                "correct": true
+            },
+            {
+                "text": "ујка"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "С какво брашно је наратор месија ԓеб?",
+        "options": [{
+                "text": "С пченично брашно."
+            },
+            {
+                "text": "С ръжано брашно."
+            },
+            {
+                "text": "С царевично брашно.",
+                "correct": true
             }
         ],
         "explanation": ""
