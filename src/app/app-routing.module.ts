@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
+import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
 import { InsektiComponent } from './kvizovi/insekti/insekti.component';
 import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
 import { PticeComponent } from './kvizovi/ptice/ptice.component';
@@ -23,6 +25,8 @@ const routes: Routes = [
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent},
+  {path: "quiz/grammar/brojevi-i-brojne-imenice", component: BrojeviIBrojneImeniceComponent},
+  {path: "quiz/grammar/vokativ", component: VokativComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent}
 ];

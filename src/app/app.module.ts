@@ -17,6 +17,8 @@ import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godi
 import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/radni-glagolski-pridev.component';
 import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
 import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
+import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
+import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-
     SinonimiMeseciUGodiniComponent,
     RadniGlagolskiPridevComponent,
     MlogoS6mSeMuchilaComponent,
-    MlogoS6mSeMuchilaKvizComponent
+    MlogoS6mSeMuchilaKvizComponent,
+    BrojeviIBrojneImeniceComponent,
+    VokativComponent
   ],
   imports: [
     BrowserModule,
