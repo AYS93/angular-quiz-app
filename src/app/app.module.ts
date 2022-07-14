@@ -19,6 +19,8 @@ import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlog
 import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
 import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
 import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
+import { VokalizacijaPoluglasnikaComponent } from './kvizovi/grammar/vokalizacija-poluglasnika/vokalizacija-poluglasnika.component';
+import { InfoPageComponent } from './info-page/info-page.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
     MlogoS6mSeMuchilaComponent,
     MlogoS6mSeMuchilaKvizComponent,
     BrojeviIBrojneImeniceComponent,
-    VokativComponent
+    VokativComponent,
+    VokalizacijaPoluglasnikaComponent,
+    InfoPageComponent
   ],
   imports: [
     BrowserModule,

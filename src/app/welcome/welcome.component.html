@@ -1,8 +1,11 @@
 <div class="container bg-light py-5">
-    <h1 class="display-5 fw-bold">Школа ПТДГ језика за говорнике БСХЦ језика</h1>
-    <p class="col-md-8 fs-4">Школа ПТДГ језика је пројекат намењен популаризацији поменутог језика, првенствено код
-        омладине која га све мање разуме и све ређе користи. <br>
-        Доле ниже можете наћи разноразне квизове који изграђују ваш вокабулар и тестирају ваше познавање ПТДГ граматике.
+    <h1 class="display-6 fw-bold">Школа ПТДГ језика</h1>
+    <p class="col-md-8 fs-4">Школа ПТДГ 
+        (<a routerLink="/info-page"><em>призренско-тимочка дијалекатска група</em></a>) језика је пројекат 
+        намењен забавном и активном усвајању поменутог <span class="fw-bold">језика</span> путем 
+        квизова. <br>
+        Доле ниже можете наћи разноразне квизове који изграђују ваш вокабулар и тестирају ваше познавање граматике 
+        ових говора, а за напредније студенте ту су и краћи текстови са питањима.
     </p>
     <h4>Правила квизова:</h4>
     <ol>
@@ -24,7 +27,7 @@
         <br>
         <button class="btn btn-success" (click)="startQuiz()">Пријава</button>
     </div>
-    <p>Немате налог? Региструјте се <a routerLink="/registration" style="text-decoration: none;">овде</a>.</p>
+    <p>Немате налог? Региструјте се <a routerLink="/registration">овде</a>.</p>
     <!--</ng-container>-->
 
     <hr>
@@ -88,8 +91,9 @@
                 <span> - вокатив</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">5</button><span> - todo:
-                    kviz</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg"
+                routerLink="/quiz/grammar/vokalizacija-poluglasnika">5</button>
+                <span> - вокализација полугласника</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
                 <button [disabled]="nameKey===undefined" class="btn btn-success btn-lg">6</button><span> - todo:
