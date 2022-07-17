@@ -21,6 +21,7 @@ import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-broj
 import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
 import { VokalizacijaPoluglasnikaComponent } from './kvizovi/grammar/vokalizacija-poluglasnika/vokalizacija-poluglasnika.component';
 import { InfoPageComponent } from './info-page/info-page.component';
+import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { InfoPageComponent } from './info-page/info-page.component';
     BrojeviIBrojneImeniceComponent,
     VokativComponent,
     VokalizacijaPoluglasnikaComponent,
-    InfoPageComponent
+    InfoPageComponent,
+    GlagolJesamComponent
   ],
   imports: [
     BrowserModule,

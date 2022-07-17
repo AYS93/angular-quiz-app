@@ -1,0 +1,20 @@
+{
+    "questions": [{
+        "questionText": "Како гласи глагол \"јесам\" у ПТДГ говорима?",
+        "options": [{
+                "text": "јѐсам"
+            },
+            {
+                "text": "јѐсъм"
+            },
+            {
+                "text": "сам"
+            },
+            {
+                "text": "съм",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    }]
+}
