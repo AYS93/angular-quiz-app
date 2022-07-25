@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { RefleksiSonantnogLService } from 'src/app/service/refleksi-sonantnog-l.service';
+import { RefleksiSonantnogLService } from 'src/app/quiz-services/refleksi-sonantnog-l.service';
 
 @Component({
   selector: 'app-refleksi-sonantnog-l',

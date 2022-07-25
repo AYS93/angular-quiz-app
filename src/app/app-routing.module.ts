@@ -34,7 +34,8 @@ const routes: Routes = [
   {path: "quiz/grammar/vokalizacija-poluglasnika", component: VokalizacijaPoluglasnikaComponent},
   {path: "quiz/grammar/glagol-jesam", component: GlagolJesamComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
-  {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent}
+  {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent},
+  {path: "**", component: RegistrationComponent}
 ];
 
 @NgModule({

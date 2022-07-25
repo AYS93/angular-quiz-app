@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { RadniGlagolskiPridevService } from 'src/app/service/radni-glagolski-pridev.service';
+import { RadniGlagolskiPridevService } from 'src/app/quiz-services/radni-glagolski-pridev.service';
 
 @Component({
   selector: 'app-radni-glagolski-pridev',

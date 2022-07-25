@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { InsektiService } from 'src/app/service/insekti.service';
+import { InsektiService } from 'src/app/quiz-services/insekti.service';
 
 @Component({
   selector: 'app-insekti',

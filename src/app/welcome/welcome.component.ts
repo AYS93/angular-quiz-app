@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-welcome',
@@ -7,17 +8,20 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
-  @ViewChild('name') nameKey!: ElementRef;
+  //@ViewChild('name') nameKey!: ElementRef;
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
+  public username: string = '';
+  public password: string = '';
   ngOnInit(): void {
   }
 
-  // start every quiz
-  startQuiz() {
-    localStorage.setItem('name', this.nameKey.nativeElement.value);
-    alert("Успешно сте се пријавили на налог!");
+  login() {
+    this.userService.login(this.username, this.password).subscribe(resp => {
+      localStorage.setItem('token', resp.token);
+      alert(resp.msg);
+    });
   }
 
 }

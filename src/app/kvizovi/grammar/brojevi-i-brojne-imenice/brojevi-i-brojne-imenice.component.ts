@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { BrojeviIBrojneImeniceService } from 'src/app/service/brojevi-i-brojne-imenice.service';
+import { BrojeviIBrojneImeniceService } from 'src/app/quiz-services/brojevi-i-brojne-imenice.service';
 
 @Component({
   selector: 'app-brojevi-i-brojne-imenice',

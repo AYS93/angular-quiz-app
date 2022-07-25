@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { KuhinjaService } from 'src/app/service/kuhinja.service';
+import { KuhinjaService } from 'src/app/quiz-services/kuhinja.service';
 
 @Component({
   selector: 'app-kuhinja',

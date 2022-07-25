@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { VokalizacijaPoluglasnikaService } from 'src/app/service/vokalizacija-poluglasnika.service';
+import { VokalizacijaPoluglasnikaService } from 'src/app/quiz-services/vokalizacija-poluglasnika.service';
 
 @Component({
   selector: 'app-vokalizacija-poluglasnika',

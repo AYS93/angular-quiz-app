@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { GlagolJesamService } from 'src/app/service/glagol-jesam.service';
+import { GlagolJesamService } from 'src/app/quiz-services/glagol-jesam.service';
 
 @Component({
   selector: 'app-glagol-jesam',

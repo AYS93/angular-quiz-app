@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { MlogoS6mSeMuchilaKvizService } from 'src/app/service/mlogo-s6m-se-muchila-kviz.service';
+import { MlogoS6mSeMuchilaKvizService } from 'src/app/quiz-services/mlogo-s6m-se-muchila-kviz.service';
 
 @Component({
   selector: 'app-mlogo-s6m-se-muchila-kviz',

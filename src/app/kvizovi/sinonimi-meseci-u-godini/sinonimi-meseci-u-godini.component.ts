@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { SinonimiMeseciUGodiniService } from 'src/app/service/sinonimi-meseci-u-godini.service';
+import { SinonimiMeseciUGodiniService } from 'src/app/quiz-services/sinonimi-meseci-u-godini.service';
 
 @Component({
   selector: 'app-sinonimi-meseci-u-godini',

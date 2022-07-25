@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { PticeService } from 'src/app/service/ptice.service';
+import { PticeService } from 'src/app/quiz-services/ptice.service';
 
 @Component({
   selector: 'app-ptice',

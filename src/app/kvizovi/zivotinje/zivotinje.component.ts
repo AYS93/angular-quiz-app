@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { ZivotinjeService } from 'src/app/service/zivotinje.service';
+import { ZivotinjeService } from 'src/app/quiz-services/zivotinje.service';
 
 @Component({
   selector: 'app-zivotinje',

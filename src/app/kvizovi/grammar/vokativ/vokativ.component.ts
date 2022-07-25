@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { VokativService } from 'src/app/service/vokativ.service';
+import { VokativService } from 'src/app/quiz-services/vokativ.service';
 
 @Component({
   selector: 'app-vokativ',
