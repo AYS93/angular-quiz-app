@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HeaderComponent } from './header/header.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ChangeBgDirective } from './change-bg.directive';
 import { RegistrationComponent } from './registration/registration.component';
 import { KuhinjaComponent } from './kvizovi/kuhinja/kuhinja.component';
@@ -22,6 +22,8 @@ import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
 import { VokalizacijaPoluglasnikaComponent } from './kvizovi/grammar/vokalizacija-poluglasnika/vokalizacija-poluglasnika.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
+import { TokenInterceptor } from './services/token-interceptor';
+import { AuthGuard } from './guard/auth.guard';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,7 @@ import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesa
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [{provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true}, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

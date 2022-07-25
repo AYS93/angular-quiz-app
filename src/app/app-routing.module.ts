@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from './guard/auth.guard';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
 import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
@@ -25,7 +26,7 @@ const routes: Routes = [
   {path: "quiz/vocabulary/zivotinje", component: ZivotinjeComponent},
   {path: "quiz/vocabulary/kuhinja", component: KuhinjaComponent},
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
-  {path: "quiz/vocabulary/ptice", component: PticeComponent},
+  {path: "quiz/vocabulary/ptice", component: PticeComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent},
