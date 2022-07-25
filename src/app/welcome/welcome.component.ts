@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 import { UserService } from '../services/user.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class WelcomeComponent implements OnInit {
 
   //@ViewChild('name') nameKey!: ElementRef;
 
-  constructor(private userService: UserService) { }
+  constructor(private userService: UserService, private router: Router) { }
 
   public username: string = '';
   public password: string = '';
@@ -20,7 +21,7 @@ export class WelcomeComponent implements OnInit {
   login() {
     this.userService.login(this.username, this.password).subscribe(resp => {
       localStorage.setItem('token', resp.token);
-      alert(resp.msg);
+      this.router.navigate(['/welcome']);
     });
   }
 
