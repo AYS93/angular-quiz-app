@@ -1,1 +1,14 @@
 <p>registration works!</p>
+<div class="form-group">
+    <form (ngSubmit)="register()">
+        <div>
+            <!--<input type="text" placeholder="Username" required name="username" [(ngModel)]="username">-->
+            <input type="text" placeholder="Username">
+        </div>
+        <div>
+            <!--<input type="password" placeholder="Password" required name="password" [(ngModel)]="password">-->
+            <input type="password" placeholder="Password">
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</div>

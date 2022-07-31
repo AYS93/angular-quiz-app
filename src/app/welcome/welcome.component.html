@@ -20,17 +20,26 @@
     </ol>
     <h1 style="font-family: 'Lucida Grande'; text-align: center;">срећно учење!</h1>
 
-    <!--<ng-container *ngIf="nameKey === undefined">-->
     <div class="name col-md-4 my-3">
-        <label for="">Корисничко име</label>
-        <input #name type="text" class="form-control">
-        <label for="">Лозинка</label>
-        <input type="password" class="form-control">
-        <br>
-        <button class="btn btn-success" (click)="login()">Пријава</button>
+        <ng-container *ngIf="loggedIn === false">
+            <label for="">Корисничко име</label>
+            <!--<input #name type="text" class="form-control" required name="username" [(ngModel)]="username">-->
+            <input #name type="text" class="form-control" placeholder="корисничко име" required>
+            <label for="">Лозинка</label>
+            <input #pass type="password" class="form-control" placeholder="лозинка" required>
+            <!--<input type="password" class="form-control" required name="password" [(ngModel)]="password">-->
+            <br>
+            <button class="btn btn-success" (click)="login()">Пријава</button>
+        </ng-container>
+        
+        <ng-container *ngIf="loggedIn === true">
+            <p>Пријављени сте као: <em><strong>{{username}}</strong></em></p>
+            <button class="btn btn-success" (click)="logout()">Одјава</button>
+        </ng-container>
     </div>
-    <p>Немате налог? Региструјте се <a routerLink="/registration">овде</a>.</p>
-    <!--</ng-container>-->
+    <ng-container *ngIf="loggedIn === false">
+        <p>Немате налог? Региструјте се <a routerLink="/registration">овде</a>.</p>
+    </ng-container>
 
     <hr>
     <div>
@@ -42,31 +51,31 @@
                 <span> - инсекти</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/zivotinje">2</button>
                 <span> - животиње</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/kuhinja">3</button>
                 <span> - кухиња</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/ptice">4</button>
                 <span> - птице</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/sinonimi_meseci">5</button>
                 <span> - синоними - месеци у години</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg">6</button>
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg">6</button>
                 <span> - (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg">7</button>
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg">7</button>
                 <span> - (ТОДО)</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
@@ -78,27 +87,27 @@
                 <span> - радни глаголски придев</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg" 
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg" 
                 routerLink="/quiz/grammar/refleksi-sonantnog-l">2</button>
                 <span> - рефлекси слоготворног л</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                 routerLink="/quiz/grammar/brojevi-i-brojne-imenice">3</button>
                 <span> - бројеви и бројне именице</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                 routerLink="/quiz/grammar/vokativ">4</button>
                 <span> - вокатив</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                 routerLink="/quiz/grammar/vokalizacija-poluglasnika">5</button>
                 <span> - вокализација полугласника</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg"
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                 routerLink="/quiz/grammar/glagol-jesam">6</button>
                 <span> - глагол јесам</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
@@ -111,7 +120,7 @@
                 routerLink="/quiz/text/mlogo-s6m-se-muchila">1</button><span> - Мло̀го съм се мучѝла</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
-                <button [disabled]="username===''" class="btn btn-success btn-lg" >2</button><span> - TODO</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg" >2</button><span> - TODO</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
     </div>
