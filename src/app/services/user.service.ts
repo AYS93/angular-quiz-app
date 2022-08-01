@@ -28,4 +28,7 @@ export class UserService {
     });
   }
 
+  getUsersJSON() {
+    return this.httpClient.get<any>("assets/users/users.json");
+  }
 }

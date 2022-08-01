@@ -17,7 +17,10 @@ export class WelcomeComponent implements OnInit {
   public username: string = '';
   public password: string = '';
   public loggedIn: boolean = false;
+  public userList: any = [];
+  public sameGuy: boolean = false;
   ngOnInit(): void {
+    this.getAllUsers();
     if (localStorage.getItem('name') && localStorage.getItem('pass')) {
       this.username = localStorage.getItem('name')!;
       this.password = localStorage.getItem('pass')!;
@@ -25,6 +28,12 @@ export class WelcomeComponent implements OnInit {
     } else {
       this.loggedIn = false;
     }
+  }
+
+  getAllUsers() {
+    this.userService.getUsersJSON().subscribe(res => {
+      this.userList = res.users;
+    });
   }
 
   /*login() {
@@ -35,20 +44,36 @@ export class WelcomeComponent implements OnInit {
     });
   }*/
 
+  sameGuyFunction() {
+    this.sameGuy = false;
+    this.userList.forEach((user: any) => {
+      if (this.username === user.username) {
+        if (this.password === user.password) {
+          this.sameGuy = true;
+        }
+      }
+    });
+  }
+
   login() {
-    localStorage.setItem('name', this.nameKey.nativeElement.value);
-    localStorage.setItem('pass', this.passKey.nativeElement.value);
     this.username = this.nameKey.nativeElement.value;
     this.password = this.passKey.nativeElement.value;
+
+    this.sameGuyFunction();
+
     if (this.username === '') {
       alert("Корисничко име је обавезно!");
     } else if (this.password === '') {
       alert("Унесите Вашу лозинку!");
+    } else if (this.sameGuy === false) {
+      alert("Погрешно корисничко име или лозинка!")
     } else {
+      localStorage.setItem('name', this.nameKey.nativeElement.value);
+      localStorage.setItem('pass', this.passKey.nativeElement.value);
       alert("Успешна пријава на систем!");
       this.loggedIn = true;
+      this.router.navigate(['/welcome']);
     }
-    this.router.navigate(['/welcome']);
   }
 
   logout() {

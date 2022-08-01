@@ -16,10 +16,14 @@ export class RegistrationComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  register() {
+  /*register() {
     this.userService.register(this.username, this.password).subscribe(resp => {
       alert(resp.msg);
       this.router.navigate(['/welcome']);
     });
+  }*/
+
+  register() {
+    this.router.navigate(['/welcome']);
   }
 }
