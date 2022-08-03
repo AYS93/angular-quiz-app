@@ -13,13 +13,33 @@ export class RegistrationComponent implements OnInit {
   public username: string = '';
   public password: string = '';
   public email: string = '';
+  public points = 0;
   public userList: any = [];
   ngOnInit(): void {
     this.getAllUsers();
   }
 
   getAllUsers() {
-    this.userList = JSON.parse(localStorage.getItem("users")!);
+    if(localStorage.getItem("users")) {
+      this.userList = JSON.parse(localStorage.getItem("users")!);
+    } else {
+      let adminObj = {
+        username: "admin",
+        password: "PTDGadmin",
+        email: "admin@admin.admin",
+        points: 0
+      }
+
+      let userObj = {
+        username: "Korisnik123",
+        password: "Korisnik123",
+        email: "korisnik123@korisnik123.korisnik",
+        points: 0
+      }
+
+      this.userList.push(adminObj);
+      this.userList.push(userObj);
+    }
   }
 
   register(regForm: any) {
@@ -30,7 +50,8 @@ export class RegistrationComponent implements OnInit {
     let obj = {
       username: this.username,
       password: this.password,
-      email: this.email
+      email: this.email,
+      points: 0
     }
     this.userList.push(obj);
     

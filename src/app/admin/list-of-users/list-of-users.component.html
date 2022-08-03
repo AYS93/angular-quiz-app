@@ -1,0 +1,29 @@
+<br/><br/>
+<div class="container bg-light">
+    <h1>Табела регистованих налога</h1>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Корисничко име</th>
+            <th scope="col">Адреса електронске поште</th>
+            <th scope="col">Бодови</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of userList; index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.points}}</td>
+            <td>
+                <ng-container *ngIf="user.username !== 'admin'">
+                    <button class="btn btn-success" (click)="ukloniNalog(i)">Уклони налог</button>
+                </ng-container>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+      <button class="btn btn-success" routerLink="/registration">Додај налог</button>
+</div>

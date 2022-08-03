@@ -26,6 +26,8 @@ import { InfoPageComponent } from './info-page/info-page.component';
 import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
 import { TokenInterceptor } from './services/token-interceptor';
 import { AuthGuard } from './guard/auth.guard';
+import { ListOfUsersComponent } from './admin/list-of-users/list-of-users.component';
+import { AdminGuard } from './guard/admin.guard';
 
 @NgModule({
   declarations: [
@@ -47,7 +49,8 @@ import { AuthGuard } from './guard/auth.guard';
     VokativComponent,
     VokalizacijaPoluglasnikaComponent,
     InfoPageComponent,
-    GlagolJesamComponent
+    GlagolJesamComponent,
+    ListOfUsersComponent
   ],
   imports: [
     BrowserModule,
@@ -56,7 +59,7 @@ import { AuthGuard } from './guard/auth.guard';
     FormsModule
     //MatSliderModule
   ],
-  providers: [{provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true}, AuthGuard],
+  providers: [{provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true}, AuthGuard, AdminGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

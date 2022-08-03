@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ListOfUsersComponent } from './admin/list-of-users/list-of-users.component';
+import { AdminGuard } from './guard/admin.guard';
 import { AuthGuard } from './guard/auth.guard';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
@@ -23,6 +25,7 @@ const routes: Routes = [
   {path: "welcome", component: WelcomeComponent},
   {path: "info-page", component: InfoPageComponent},
   {path: "registration", component: RegistrationComponent},
+  {path: "list-of-users", component: ListOfUsersComponent, canActivate: [AdminGuard]},
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
   {path: "quiz/vocabulary/zivotinje", component: ZivotinjeComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/kuhinja", component: KuhinjaComponent, canActivate: [AuthGuard]},

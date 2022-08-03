@@ -34,6 +34,10 @@
         <ng-container *ngIf="loggedIn === true">
             <p>Пријављени сте као: <em><strong>{{username}}</strong></em></p>
             <button class="btn btn-success" (click)="logout()">Одјава</button>
+            <ng-container *ngIf="username === 'admin'">
+                <br/><br/>
+                <button class="btn btn-success" routerLink="/list-of-users">листа регистрованих налога</button>
+            </ng-container>
         </ng-container>
     </div>
     <ng-container *ngIf="loggedIn === false">

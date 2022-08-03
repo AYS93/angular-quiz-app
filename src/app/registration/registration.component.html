@@ -1,4 +1,5 @@
 <br/><br/>
+<div class="container bg-light">
 <div class="container card">
     <h2>Регистрација</h2><br/>
     <form (ngSubmit)="register(regForm)" #regForm="ngForm" novalidate>
@@ -59,4 +60,5 @@
         <br/>
         <button type="submit" class="btn btn-success" [disabled]="!regForm.valid">Креирај налог</button>
     </form>
+</div>
 </div>
