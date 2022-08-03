@@ -1,14 +1,62 @@
-<p>registration works!</p>
-<div class="form-group">
-    <form (ngSubmit)="register()">
-        <div>
-            <!--<input type="text" placeholder="Username" required name="username" [(ngModel)]="username">-->
-            <input type="text" placeholder="Username">
+<br/><br/>
+<div class="container card">
+    <h2>Регистрација</h2><br/>
+    <form (ngSubmit)="register(regForm)" #regForm="ngForm" novalidate>
+        <div class="form-group">
+            <label for="username">Корисничко име</label><br>
+            <input class="form-control" type="text" ngModel name="username" placeholder="Корисничко име" required
+                minlength="4" maxlength="14" #username="ngModel">
+
+            <div *ngIf="username.invalid && (username.dirty || username.touched)" class="alert regErr">
+                <div *ngIf="username.errors?.['required']">
+                    Корисничко име је обавезно.
+                </div>
+                <div *ngIf="username.errors?.['minlength']">
+                    Корисничко име мора садржати најмање 4 карактера.
+                </div>
+            </div>
         </div>
-        <div>
-            <!--<input type="password" placeholder="Password" required name="password" [(ngModel)]="password">-->
-            <input type="password" placeholder="Password">
+        <div class="form-group">
+            <label for="email">Адреса електронске поште</label><br>
+            <input class="form-control" type="text" ngModel name="email" placeholder="Email" required
+                #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert regErr">
+                <div *ngIf="email.errors?.['required']">
+                    Унесите валидну адресу електронске поште.
+                </div>
+                <div *ngIf="email.errors?.['pattern']">
+                    Унесите валидну адресу електронске поште.
+                </div>
+            </div>
         </div>
-        <button type="submit">Register</button>
+        <div class="form-group">
+            <label for="pass">Лозинка</label><br>
+            <input class="form-control" type="password" ngModel name="pass" placeholder="Лозинка" required #pass="ngModel"
+                minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <div *ngIf="pass.invalid && (pass.dirty || pass.touched)" class="alert regErr">
+                <div *ngIf="pass.errors?.['required']">
+                    Унесите лозинку.
+                </div>
+                <div *ngIf="pass.errors?.['minlength']">
+                    Лозинка мора садржати најмање 8 карактера.
+                </div>
+                <div *ngIf="pass.errors?.['pattern']">
+                    Лозинка мора садржати најмање једну цифру, једно велико слово и једно мало слово.
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label for="confirmpassword">Потврда лозинке</label><br>
+            <input class="form-control" type="password" ngModel name="confirmpassword"
+                placeholder="Потврда лозинке" required pattern="{{pass.value}}" #confirmpassword="ngModel">
+            <div *ngIf=" confirmpassword.invalid && (regForm.submitted || confirmpassword.touched)"
+                class="alert regErr">
+                <div *ngIf="confirmpassword.errors?.['required']"> Потврда лозинке је обавезна. </div>
+                <div *ngIf="confirmpassword.errors?.['pattern']"> Лозинке се не поклапају. </div>
+            </div>
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-success" [disabled]="!regForm.valid">Креирај налог</button>
     </form>
 </div>

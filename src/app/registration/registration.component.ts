@@ -13,17 +13,42 @@ export class RegistrationComponent implements OnInit {
 
   public username: string = '';
   public password: string = '';
+  public email: string = '';
+  public userList: any = [];
   ngOnInit(): void {
+    this.getAllUsers();
   }
 
-  /*register() {
-    this.userService.register(this.username, this.password).subscribe(resp => {
-      alert(resp.msg);
-      this.router.navigate(['/welcome']);
+  getAllUsers() {
+    this.userService.getUsersJSON().subscribe(res => {
+      this.userList = res.users;
     });
-  }*/
+  }
 
-  register() {
+  register(regForm: any) {
+    //console.log(regForm.value);
+
+    this.username = regForm.value["username"];
+    this.password = regForm.value["pass"];
+    this.email = regForm.value["email"];
+
+    let obj = {
+      username: this.username,
+      password: this.password,
+      email: this.email
+    }
+    this.userList.push(obj);
+    //console.log(this.userList);
+
+    let users = {
+      "users": this.userList
+    };
+
+    let jsonString = JSON.stringify(users);
+    console.log("DEVELOPER INSTRUCTIONS: CTRL+C THIS TO assets/uesrs/users.json, SAVE THE CHANGES AND REFRESH THE PAGE!")
+    console.log(jsonString);
+    
+    alert("Налог је успешно креиран!");
     this.router.navigate(['/welcome']);
   }
 }

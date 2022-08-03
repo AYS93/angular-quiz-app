@@ -36,14 +36,6 @@ export class WelcomeComponent implements OnInit {
     });
   }
 
-  /*login() {
-    this.userService.login(this.username, this.password).subscribe(resp => {
-      localStorage.setItem('token', resp.token);
-      //localStorage.setItem('name', this.username);
-      this.router.navigate(['/welcome']);
-    });
-  }*/
-
   sameGuyFunction() {
     this.sameGuy = false;
     this.userList.forEach((user: any) => {

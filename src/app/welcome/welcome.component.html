@@ -24,11 +24,9 @@
     <div class="name col-md-4 my-3">
         <ng-container *ngIf="loggedIn === false">
             <label for="">Корисничко име</label>
-            <!--<input #name type="text" class="form-control" required name="username" [(ngModel)]="username">-->
             <input #name type="text" class="form-control" placeholder="корисничко име" required>
             <label for="">Лозинка</label>
             <input #pass type="password" class="form-control" placeholder="лозинка" required>
-            <!--<input type="password" class="form-control" required name="password" [(ngModel)]="password">-->
             <br>
             <button class="btn btn-success" (click)="login()">Пријава</button>
         </ng-container>

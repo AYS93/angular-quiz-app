@@ -1,6 +1,19 @@
 {
-    "users": [{
-        "username": "korisnik123",
-        "password": "korisnik123"
-    }]
+    "users": [
+        {
+            "username": "korisnik123",
+            "password": "korisnik123",
+            "email": "korisnik123@korisnik123.com"
+        },
+        {
+            "username": "admin",
+            "password": "admin",
+            "email": "admin@admin.admin"
+        },
+        {
+            "username": "Dragan",
+            "password": "12345678aA",
+            "email": "dragan@mejl.com"
+        }
+    ]
 }
