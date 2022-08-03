@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
-import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-welcome',
@@ -12,12 +11,12 @@ export class WelcomeComponent implements OnInit {
   @ViewChild('name') nameKey!: ElementRef;
   @ViewChild('pass') passKey!: ElementRef;
 
-  constructor(private userService: UserService, private router: Router) { }
+  constructor(private router: Router) { }
 
   public username: string = '';
   public password: string = '';
   public loggedIn: boolean = false;
-  public userList: any = [];
+  public userListLocalStorage: any = [];
   public sameGuy: boolean = false;
   ngOnInit(): void {
     this.getAllUsers();
@@ -31,14 +30,12 @@ export class WelcomeComponent implements OnInit {
   }
 
   getAllUsers() {
-    this.userService.getUsersJSON().subscribe(res => {
-      this.userList = res.users;
-    });
+    this.userListLocalStorage = JSON.parse(localStorage.getItem("users")!);
   }
 
   sameGuyFunction() {
     this.sameGuy = false;
-    this.userList.forEach((user: any) => {
+    this.userListLocalStorage.forEach((user: any) => {
       if (this.username === user.username) {
         if (this.password === user.password) {
           this.sameGuy = true;
