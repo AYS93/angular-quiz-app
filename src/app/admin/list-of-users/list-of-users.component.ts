@@ -19,6 +19,11 @@ export class ListOfUsersComponent implements OnInit {
   }
 
   ukloniNalog(i: number) {
-    alert("ukloniNalog funkcija pozvana sa indeksom " + i);
+    this.userList.splice(i, 1);
+
+    let jsonString = JSON.stringify(this.userList);
+    localStorage.setItem("users", jsonString);
+
+    alert("Налог је успешно уклоњен");
   }
 }
