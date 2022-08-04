@@ -68,12 +68,12 @@
                     <p>Број нетачни одговори: {{incorrectAnswer}} </p>
                     <p>Број бодови: {{points}} </p>
                     <br>
-                    <button class="btn btn-success" routerLink="/welcome">погледни ги остали квизови</button>
+                    <button class="btn btn-success" (click)="saveScore()" routerLink="/welcome">погледни ги остали квизови</button>
                     <br><br>
                     <button class="btn btn-success" (click)="resetQuiz()"><i
                         class="fa fa-refresh" aria-hidden="true"></i> решавај га па̀ овъј квиз</button>
                     <br><br>
-                    <button class="btn btn-success" routerLink="/quiz/text/mlogo-s6m-se-muchila">прочитај га па̀ овъј текст</button>
+                    <button class="btn btn-success" (click)="saveScore()" routerLink="/quiz/text/mlogo-s6m-se-muchila">прочитај га па̀ овъј текст</button>
                 </div>
             </div>
         </ng-container>

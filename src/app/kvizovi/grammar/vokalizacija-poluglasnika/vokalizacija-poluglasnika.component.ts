@@ -9,6 +9,7 @@ import { VokalizacijaPoluglasnikaService } from 'src/app/quiz-services/vokalizac
 })
 export class VokalizacijaPoluglasnikaComponent implements OnInit {
 
+  public userList: any = [];
   public name: string = "";
   public questionList: any = [];
   public currentQuestion: number = 0;
@@ -24,9 +25,14 @@ export class VokalizacijaPoluglasnikaComponent implements OnInit {
   constructor(private vokalizacijaPoluglasnikaService: VokalizacijaPoluglasnikaService) { }
 
   ngOnInit(): void {
+    this.getAllUsers();
     this.name = localStorage.getItem('name')!;
     this.getAllQuestions();
     this.startCounter();
+  }
+
+  getAllUsers() {
+    this.userList = JSON.parse(localStorage.getItem("users")!);
   }
 
   getAllQuestions() {
@@ -111,4 +117,20 @@ export class VokalizacijaPoluglasnikaComponent implements OnInit {
     this.progress = (((this.currentQuestion) / (this.questionList.length-1))*100).toString();
     return this.progress;
   }
+
+  saveScore() {
+    if (localStorage.getItem('name')) {
+      this.userList.forEach((el: any) => {
+        if (this.name === el.username) {
+          el.points += this.points;
+        }
+      });
+
+      let jsonString = JSON.stringify(this.userList);
+      localStorage.setItem("users", jsonString);
+    } else {
+      console.log("not logged in");
+    }
+  }
+  
 }

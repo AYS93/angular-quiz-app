@@ -63,7 +63,7 @@
                     <p>Број нетачних одговора: {{incorrectAnswer}} </p>
                     <p>Број бодова: {{points}} </p>
                     <br>
-                    <button class="btn btn-success" routerLink="/welcome">погледај остале квизове</button>
+                    <button class="btn btn-success" (click)="saveScore()" routerLink="/welcome">погледај остале квизове</button>
                     <br><br>
                     <button class="btn btn-success" (click)="resetQuiz()"><i
                         class="fa fa-refresh" aria-hidden="true"></i> понови овај квиз</button>
