@@ -16,6 +16,7 @@ import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refl
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
 import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: "info-page", component: InfoPageComponent},
   {path: "registration", component: RegistrationComponent},
   {path: "list-of-users", component: ListOfUsersComponent, canActivate: [AdminGuard]},
+  {path: "scoreboard", component: ScoreboardComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
   {path: "quiz/vocabulary/zivotinje", component: ZivotinjeComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/kuhinja", component: KuhinjaComponent, canActivate: [AuthGuard]},

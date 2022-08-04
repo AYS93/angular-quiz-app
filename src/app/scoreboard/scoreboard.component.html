@@ -1,0 +1,25 @@
+<br/><br/>
+<div class="container bg-light">
+    <h2>Ранг листа корисника по освојеним бодовима</h2>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Корисник</th>
+            <th scope="col">Бодови</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of userList; index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{user.username}}</td>
+            <td>{{user.points}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+      <button class="btn btn-success" routerLink="/welcome">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i> Назад
+      </button>
+      <br/><br/>
+</div>

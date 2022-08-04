@@ -28,6 +28,7 @@ import { TokenInterceptor } from './services/token-interceptor';
 import { AuthGuard } from './guard/auth.guard';
 import { ListOfUsersComponent } from './admin/list-of-users/list-of-users.component';
 import { AdminGuard } from './guard/admin.guard';
+import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { AdminGuard } from './guard/admin.guard';
     VokalizacijaPoluglasnikaComponent,
     InfoPageComponent,
     GlagolJesamComponent,
-    ListOfUsersComponent
+    ListOfUsersComponent,
+    ScoreboardComponent
   ],
   imports: [
     BrowserModule,
