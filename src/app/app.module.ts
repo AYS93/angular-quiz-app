@@ -29,6 +29,8 @@ import { AuthGuard } from './guard/auth.guard';
 import { ListOfUsersComponent } from './admin/list-of-users/list-of-users.component';
 import { AdminGuard } from './guard/admin.guard';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
+import { ImaNaukaAImaIOdukaComponent } from './tekstovi/ima-nauka-a-ima-i-oduka/ima-nauka-a-ima-i-oduka.component';
+import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-oduka-kviz/ima-nauka-a-ima-i-oduka-kviz.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { ScoreboardComponent } from './scoreboard/scoreboard.component';
     InfoPageComponent,
     GlagolJesamComponent,
     ListOfUsersComponent,
-    ScoreboardComponent
+    ScoreboardComponent,
+    ImaNaukaAImaIOdukaComponent,
+    ImaNaukaAImaIOdukaKvizComponent
   ],
   imports: [
     BrowserModule,

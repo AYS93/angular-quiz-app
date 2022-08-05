@@ -17,6 +17,8 @@ import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godi
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
+import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-oduka-kviz/ima-nauka-a-ima-i-oduka-kviz.component';
+import { ImaNaukaAImaIOdukaComponent } from './tekstovi/ima-nauka-a-ima-i-oduka/ima-nauka-a-ima-i-oduka.component';
 import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
 import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -41,6 +43,8 @@ const routes: Routes = [
   {path: "quiz/grammar/glagol-jesam", component: GlagolJesamComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent},
+  {path: "quiz/text/ima-nauka-a-ima-i-oduka", component: ImaNaukaAImaIOdukaComponent, canActivate: [AuthGuard]},
+  {path: "quiz/text/ima-nauka-a-ima-i-oduka-kviz", component: ImaNaukaAImaIOdukaKvizComponent, canActivate: [AuthGuard]},
   {path: "**", component: RegistrationComponent}
 ];
 
