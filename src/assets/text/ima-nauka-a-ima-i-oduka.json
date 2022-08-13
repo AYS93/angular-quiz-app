@@ -15,7 +15,7 @@
         "explanation": ""
     },
     {
-        "questionText": "Какво је тој кавтор у овъј текст?",
+        "questionText": "Какво је тој кавтор?",
         "options": [{
                 "text": "шпорет",
                 "correct": true
