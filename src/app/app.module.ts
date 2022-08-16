@@ -31,6 +31,8 @@ import { AdminGuard } from './guard/admin.guard';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { ImaNaukaAImaIOdukaComponent } from './tekstovi/ima-nauka-a-ima-i-oduka/ima-nauka-a-ima-i-oduka.component';
 import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-oduka-kviz/ima-nauka-a-ima-i-oduka-kviz.component';
+import { OvojSiTekjePocheDaSeOsnuraComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura/ovoj-si-tekje-poche-da-se-osnura.component';
+import { OvojSiTekjePocheDaSeOsnuraKvizComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura-kviz/ovoj-si-tekje-poche-da-se-osnura-kviz.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,9 @@ import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-od
     ListOfUsersComponent,
     ScoreboardComponent,
     ImaNaukaAImaIOdukaComponent,
-    ImaNaukaAImaIOdukaKvizComponent
+    ImaNaukaAImaIOdukaKvizComponent,
+    OvojSiTekjePocheDaSeOsnuraComponent,
+    OvojSiTekjePocheDaSeOsnuraKvizComponent
   ],
   imports: [
     BrowserModule,

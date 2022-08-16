@@ -21,6 +21,8 @@ import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-od
 import { ImaNaukaAImaIOdukaComponent } from './tekstovi/ima-nauka-a-ima-i-oduka/ima-nauka-a-ima-i-oduka.component';
 import { MlogoS6mSeMuchilaKvizComponent } from './tekstovi/mlogo-s6m-se-muchila-kviz/mlogo-s6m-se-muchila-kviz.component';
 import { MlogoS6mSeMuchilaComponent } from './tekstovi/mlogo-s6m-se-muchila/mlogo-s6m-se-muchila.component';
+import { OvojSiTekjePocheDaSeOsnuraKvizComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura-kviz/ovoj-si-tekje-poche-da-se-osnura-kviz.component';
+import { OvojSiTekjePocheDaSeOsnuraComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura/ovoj-si-tekje-poche-da-se-osnura.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
@@ -45,6 +47,8 @@ const routes: Routes = [
   {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent},
   {path: "quiz/text/ima-nauka-a-ima-i-oduka", component: ImaNaukaAImaIOdukaComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/ima-nauka-a-ima-i-oduka-kviz", component: ImaNaukaAImaIOdukaKvizComponent, canActivate: [AuthGuard]},
+  {path: "quiz/text/ovoj-si-tekje-poche-da-se-osnura", component: OvojSiTekjePocheDaSeOsnuraComponent, canActivate: [AuthGuard]},
+  {path: "quiz/text/ovoj-si-tekje-poche-da-se-osnura-kviz", component: OvojSiTekjePocheDaSeOsnuraKvizComponent, canActivate: [AuthGuard]},
   {path: "**", component: RegistrationComponent}
 ];
 
