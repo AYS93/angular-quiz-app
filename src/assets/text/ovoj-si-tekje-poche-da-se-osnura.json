@@ -31,5 +31,41 @@
             }
         ],
         "explanation": ""
+    },
+    {
+        "questionText": "У коју се ововремску дръжаву наоди Будим?",
+        "options": [{
+                "text": "У Австрију."
+            },
+            {
+                "text": "У Маѓарско.",
+                "correct": true
+            },
+            {
+                "text": "У Немъчко."
+            },
+            {
+                "text": "У Сръбију."
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Авџија је:",
+        "options": [{
+                "text": "аџија"
+            },
+            {
+                "text": "рибар"
+            },
+            {
+                "text": "ловъц",
+                "correct": true
+            },
+            {
+                "text": "ќурчија"
+            }
+        ],
+        "explanation": ""
     }]
 }
