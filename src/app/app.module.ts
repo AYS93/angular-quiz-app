@@ -34,6 +34,7 @@ import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-od
 import { OvojSiTekjePocheDaSeOsnuraComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura/ovoj-si-tekje-poche-da-se-osnura.component';
 import { OvojSiTekjePocheDaSeOsnuraKvizComponent } from './tekstovi/ovoj-si-tekje-poche-da-se-osnura-kviz/ovoj-si-tekje-poche-da-se-osnura-kviz.component';
 import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sinonimi-turcizmi.component';
+import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sin
     ImaNaukaAImaIOdukaKvizComponent,
     OvojSiTekjePocheDaSeOsnuraComponent,
     OvojSiTekjePocheDaSeOsnuraKvizComponent,
-    SinonimiTurcizmiComponent
+    SinonimiTurcizmiComponent,
+    AlbanizmiComponent
   ],
   imports: [
     BrowserModule,

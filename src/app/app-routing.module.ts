@@ -14,6 +14,7 @@ import { PticeComponent } from './kvizovi/ptice/ptice.component';
 import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/radni-glagolski-pridev.component';
 import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
+import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.component';
 import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sinonimi-turcizmi.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -39,6 +40,7 @@ const routes: Routes = [
   {path: "quiz/vocabulary/ptice", component: PticeComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/sinonimi_turcizmi", component: SinonimiTurcizmiComponent, canActivate: [AuthGuard]},
+  {path: "quiz/vocabulary/albanizmi", component: AlbanizmiComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/brojevi-i-brojne-imenice", component: BrojeviIBrojneImeniceComponent, canActivate: [AuthGuard]},
