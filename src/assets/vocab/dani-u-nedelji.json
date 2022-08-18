@@ -1,0 +1,128 @@
+{
+    "questions": [{
+        "questionText": "Како се на ПТДГ каже: \"недеља\"?",
+        "options": [{
+                "text": "недѐља",
+                "correct": true
+            },
+            {
+                "text": "нѐдеља"
+            },
+            {
+                "text": "недѐлја"
+            },
+            {
+                "text": "недѐљник"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ каже: \"понедељак\"?",
+        "options": [{
+                "text": "понедѐљник",
+                "correct": true
+            },
+            {
+                "text": "понедѐљак"
+            },
+            {
+                "text": "понедѐљък"
+            },
+            {
+                "text": "понѐдељник"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ НЕ каже: \"уторак\"?",
+        "options": [{
+                "text": "уто̀рник"
+            },
+            {
+                "text": "вторнѝк"
+            },
+            {
+                "text": "торнѝк"
+            },
+            {
+                "text": "ỳторък",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ каже: \"среда\"?",
+        "options": [{
+                "text": "средỳља"
+            },
+            {
+                "text": "средња̀к"
+            },
+            {
+                "text": "среднѝк"
+            },
+            {
+                "text": "срѐда",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ каже: \"четвртак\"?",
+        "options": [{
+                "text": "четвръ̀так"
+            },
+            {
+                "text": "четвръ̀ток"
+            },
+            {
+                "text": "четвръ̀тък",
+                "correct": true
+            },
+            {
+                "text": "четвръ̀тка"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ каже: \"петак\"?",
+        "options": [{
+                "text": "пѐтак"
+            },
+            {
+                "text": "пѐтък",
+                "correct": true
+            },
+            {
+                "text": "петнѝк"
+            },
+            {
+                "text": "пѐток"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Како се на ПТДГ каже: \"субота\"?",
+        "options": [{
+                "text": "сабо̀та"
+            },
+            {
+                "text": "субо̀та",
+                "correct": true
+            },
+            {
+                "text": "събо̀та"
+            },
+            {
+                "text": "сỳбота"
+            }
+        ],
+        "explanation": ""
+    }]
+}

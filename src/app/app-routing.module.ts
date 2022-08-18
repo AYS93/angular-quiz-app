@@ -15,8 +15,10 @@ import { RadniGlagolskiPridevComponent } from './kvizovi/radni-glagolski-pridev/
 import { RefleksiSonantnogLComponent } from './kvizovi/refleksi-sonantnog-l/refleksi-sonantnog-l.component';
 import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godini/sinonimi-meseci-u-godini.component';
 import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.component';
+import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-nedelji.component';
 import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sinonimi-turcizmi.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
+import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
 import { ImaNaukaAImaIOdukaKvizComponent } from './tekstovi/ima-nauka-a-ima-i-oduka-kviz/ima-nauka-a-ima-i-oduka-kviz.component';
@@ -32,6 +34,7 @@ const routes: Routes = [
   {path: "welcome", component: WelcomeComponent},
   {path: "info-page", component: InfoPageComponent},
   {path: "registration", component: RegistrationComponent},
+  {path: "mind-your-language", component: MindYourLanguageComponent},
   {path: "list-of-users", component: ListOfUsersComponent, canActivate: [AdminGuard]},
   {path: "scoreboard", component: ScoreboardComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
@@ -41,6 +44,7 @@ const routes: Routes = [
   {path: "quiz/vocabulary/sinonimi_meseci", component: SinonimiMeseciUGodiniComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/sinonimi_turcizmi", component: SinonimiTurcizmiComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/albanizmi", component: AlbanizmiComponent, canActivate: [AuthGuard]},
+  {path: "quiz/vocabulary/dani-u-nedelji", component: DaniUNedeljiComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/brojevi-i-brojne-imenice", component: BrojeviIBrojneImeniceComponent, canActivate: [AuthGuard]},

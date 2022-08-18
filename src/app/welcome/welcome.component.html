@@ -7,7 +7,7 @@
         ових говора, а за напредније студенте ту су и краћи текстови са питањима.<br>
         Акценат је стављен претежно на призренско-јужноморавски дијалекат, конкретније на јужноморавски поддијалекат 
         (уз одређене примесе других призренско-јужноморавских говора, као и других ПТДГ говора уопште).<br>
-        Детаљнији преглед особина различитих ПТДГ говора можете наћи <a href="#"><em>овде</em></a>.
+        Детаљнији преглед особина различитих ПТДГ говора можете наћи <a routerLink="/mind-your-language"><em>овде</em></a>.
     </p>
     <h4>Правила квизова:</h4>
     <ol>
@@ -84,6 +84,11 @@
                 <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/albanizmi">7</button>
                 <span> - албанизми</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
+                    routerLink="/quiz/vocabulary/dani-u-nedelji">8</button>
+                <span> - дани у недељи</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
         <br /><br />
