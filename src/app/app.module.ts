@@ -37,6 +37,7 @@ import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sin
 import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.component';
 import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-nedelji.component';
 import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
+import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { MindYourLanguageComponent } from './mind-your-language/mind-your-langua
     SinonimiTurcizmiComponent,
     AlbanizmiComponent,
     DaniUNedeljiComponent,
-    MindYourLanguageComponent
+    MindYourLanguageComponent,
+    RodImenicaComponent
   ],
   imports: [
     BrowserModule,

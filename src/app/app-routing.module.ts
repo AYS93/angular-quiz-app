@@ -6,6 +6,7 @@ import { AuthGuard } from './guard/auth.guard';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
 import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
+import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
 import { VokalizacijaPoluglasnikaComponent } from './kvizovi/grammar/vokalizacija-poluglasnika/vokalizacija-poluglasnika.component';
 import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
 import { InsektiComponent } from './kvizovi/insekti/insekti.component';
@@ -51,6 +52,7 @@ const routes: Routes = [
   {path: "quiz/grammar/vokativ", component: VokativComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/vokalizacija-poluglasnika", component: VokalizacijaPoluglasnikaComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/glagol-jesam", component: GlagolJesamComponent, canActivate: [AuthGuard]},
+  {path: "quiz/grammar/rod-imenica", component: RodImenicaComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent},
   {path: "quiz/text/ima-nauka-a-ima-i-oduka", component: ImaNaukaAImaIOdukaComponent, canActivate: [AuthGuard]},
