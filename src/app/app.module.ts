@@ -38,6 +38,7 @@ import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.componen
 import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-nedelji.component';
 import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
 import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
+import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.c
     AlbanizmiComponent,
     DaniUNedeljiComponent,
     MindYourLanguageComponent,
-    RodImenicaComponent
+    RodImenicaComponent,
+    LazniPrijateljiComponent
   ],
   imports: [
     BrowserModule,
