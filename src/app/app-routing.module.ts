@@ -18,6 +18,7 @@ import { SinonimiMeseciUGodiniComponent } from './kvizovi/sinonimi-meseci-u-godi
 import { AlbanizmiComponent } from './kvizovi/vocab/albanizmi/albanizmi.component';
 import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-nedelji.component';
 import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
+import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.component';
 import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sinonimi-turcizmi.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
@@ -48,6 +49,7 @@ const routes: Routes = [
   {path: "quiz/vocabulary/albanizmi", component: AlbanizmiComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/dani-u-nedelji", component: DaniUNedeljiComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/lazni-prijatelji", component: LazniPrijateljiComponent, canActivate: [AuthGuard]},
+  {path: "quiz/vocabulary/ljudsko-telo", component: LjudskoTeloComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/brojevi-i-brojne-imenice", component: BrojeviIBrojneImeniceComponent, canActivate: [AuthGuard]},

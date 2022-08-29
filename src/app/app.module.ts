@@ -39,6 +39,7 @@ import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-ned
 import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
 import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
 import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
+import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni
     DaniUNedeljiComponent,
     MindYourLanguageComponent,
     RodImenicaComponent,
-    LazniPrijateljiComponent
+    LazniPrijateljiComponent,
+    LjudskoTeloComponent
   ],
   imports: [
     BrowserModule,

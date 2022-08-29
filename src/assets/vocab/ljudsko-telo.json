@@ -1,0 +1,191 @@
+{
+    "questions": [{
+        "questionText": "Пронађи синоним: \"мешѝна\"",
+        "options": [{
+                "text": "џигѐр"
+            },
+            {
+                "text": "слезѝна"
+            },
+            {
+                "text": "стома̀к",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"џигѐр\"?",
+        "options": [{
+                "text": "џигерица"
+            },
+            {
+                "text": "слезина"
+            },
+            {
+                "text": "јетра",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"тил\"?",
+        "options": [{
+                "text": "чело"
+            },
+            {
+                "text": "потиљак",
+                "correct": true
+            },
+            {
+                "text": "теме"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Преведи на ПТДГ: \"леђа\"",
+        "options": [{
+                "text": "лѐѓа"
+            },
+            {
+                "text": "гръбѝна",
+                "correct": true
+            },
+            {
+                "text": "гръ̀ба"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"ќук\"?",
+        "options": [{
+                "text": "кук"
+            },
+            {
+                "text": "доња леђа, крста"
+            },
+            {
+                "text": "горња леђа",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Пронађи синоним: \"крак\"",
+        "options": [{
+                "text": "рỳка"
+            },
+            {
+                "text": "ша̀ка"
+            },
+            {
+                "text": "но̀га",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Није врат него баш ...",
+        "options": [{
+                "text": "... врат!"
+            },
+            {
+                "text": "... шѝја!",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Зачепи ...",
+        "options": [{
+                "text": "... ỳсну?"
+            },
+            {
+                "text": "... гỳбицу!",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Пронађи синоним: \"нос\"",
+        "options": [{
+                "text": "рйња",
+                "correct": true
+            },
+            {
+                "text": "ỳнде"
+            },
+            {
+                "text": "бурỳн"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"цволѝка\"?",
+        "options": [{
+                "text": "цеваница",
+                "correct": true
+            },
+            {
+                "text": "скочни зглоб"
+            },
+            {
+                "text": "колено"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"вѐѓа\"?",
+        "options": [{
+                "text": "брк"
+            },
+            {
+                "text": "обрва",
+                "correct": true
+            },
+            {
+                "text": "трепавица"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Преведи на ПТДГ: \"трепавица\"",
+        "options": [{
+                "text": "трѐпавица"
+            },
+            {
+                "text": "трѐпка",
+                "correct": true
+            },
+            {
+                "text": "трѐпља"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Шта је \"спрѐмка\"?",
+        "options": [{
+                "text": "препона",
+                "correct": true
+            },
+            {
+                "text": "скочни зглоб"
+            },
+            {
+                "text": "цеваница"
+            }
+        ],
+        "explanation": ""
+    }]
+}

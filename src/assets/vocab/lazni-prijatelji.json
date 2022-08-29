@@ -220,6 +220,27 @@
             },
             {
                 "text": "веш"
+            },
+            {
+                "text": "дрѐја"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Преведи на српски: \"тѐпам\"?",
+        "options": [{
+                "text": "тапшати"
+            },
+            {
+                "text": "тепати"
+            },
+            {
+                "text": "тући",
+                "correct": true
+            },
+            {
+                "text": "мазити"
             }
         ],
         "explanation": ""
