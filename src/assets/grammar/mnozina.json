@@ -1,0 +1,191 @@
+{
+    "questions": [{
+        "questionText": "Која је множина именице \"стол\"?",
+        "options": [{
+                "text": "сто̀ли"
+            },
+            {
+                "text": "столо̀ви",
+                "correct": true
+            },
+            {
+                "text": "сто̀лики"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"муж\"?",
+        "options": [{
+                "text": "мỳжи",
+                "correct": true
+            },
+            {
+                "text": "мужѐви"
+            },
+            {
+                "text": "мужѝки"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"кола̀че\"?",
+        "options": [{
+                "text": "кола̀чад"
+            },
+            {
+                "text": "колачѐта"
+            },
+            {
+                "text": "колачѝки",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"та̀тко\"?",
+        "options": [{
+                "text": "та̀тке"
+            },
+            {
+                "text": "та̀тковци",
+                "correct": true
+            },
+            {
+                "text": "татко̀ви"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"пра̀се\"?",
+        "options": [{
+                "text": "пра̀сики",
+                "correct": true
+            },
+            {
+                "text": "пра̀сад"
+            },
+            {
+                "text": "прасѝќи"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"џак\"?",
+        "options": [{
+                "text": "џа̀кови"
+            },
+            {
+                "text": "џа̀ци"
+            },
+            {
+                "text": "и једно и друго",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"сок\"?",
+        "options": [{
+                "text": "со̀кови"
+            },
+            {
+                "text": "со̀ци"
+            },
+            {
+                "text": "и једно и друго",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"столѝца\"?",
+        "options": [{
+                "text": "столѝце",
+                "correct": true
+            },
+            {
+                "text": "столѝци"
+            },
+            {
+                "text": "сто̀лчики"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Која је множина именице \"екемкчѝја\"?",
+        "options": [{
+                "text": "екмекчѝје"
+            },
+            {
+                "text": "екмекчѝе",
+                "correct": true
+            },
+            {
+                "text": "екмекчѝи"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Допуни реченицу: \"1 џак, 2 џа̀ка, 5 ____.\"?",
+        "options": [{
+                "text": "џа̀кова"
+            },
+            {
+                "text": "џа̀кови"
+            },
+            {
+                "text": "џа̀ци"
+            },
+            {
+                "text": "џа̀ка",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Допуни реченицу: \"1 саа̀т, 3 саа̀та, 7 ____.\"?",
+        "options": [{
+                "text": "саа̀ти"
+            },
+            {
+                "text": "саа̀това"
+            },
+            {
+                "text": "саа̀тови"
+            },
+            {
+                "text": "саа̀та",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "Допуни реченицу: \"1 мѐтър, 4 мѐтра, 9 ____.\"?",
+        "options": [{
+                "text": "мѐтъра"
+            },
+            {
+                "text": "мѐтри"
+            },
+            {
+                "text": "мѐтара"
+            },
+            {
+                "text": "мѐтра",
+                "correct": true
+            }
+        ],
+        "explanation": ""
+    }]
+}

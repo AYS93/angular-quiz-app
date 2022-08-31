@@ -40,6 +40,7 @@ import { MindYourLanguageComponent } from './mind-your-language/mind-your-langua
 import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
 import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
 import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.component';
+import { MnozinaImenicaComponent } from './kvizovi/grammar/mnozina-imenica/mnozina-imenica.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.
     MindYourLanguageComponent,
     RodImenicaComponent,
     LazniPrijateljiComponent,
-    LjudskoTeloComponent
+    LjudskoTeloComponent,
+    MnozinaImenicaComponent
   ],
   imports: [
     BrowserModule,
