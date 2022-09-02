@@ -41,6 +41,8 @@ import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.c
 import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
 import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.component';
 import { MnozinaImenicaComponent } from './kvizovi/grammar/mnozina-imenica/mnozina-imenica.component';
+import { PokazneZameniceComponent } from './kvizovi/grammar/pokazne-zamenice/pokazne-zamenice.component';
+import { UstaljeniIzraziComponent } from './kvizovi/vocab/ustaljeni-izrazi/ustaljeni-izrazi.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +78,9 @@ import { MnozinaImenicaComponent } from './kvizovi/grammar/mnozina-imenica/mnozi
     RodImenicaComponent,
     LazniPrijateljiComponent,
     LjudskoTeloComponent,
-    MnozinaImenicaComponent
+    MnozinaImenicaComponent,
+    PokazneZameniceComponent,
+    UstaljeniIzraziComponent
   ],
   imports: [
     BrowserModule,

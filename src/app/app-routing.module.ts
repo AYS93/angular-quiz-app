@@ -7,6 +7,7 @@ import { InfoPageComponent } from './info-page/info-page.component';
 import { BrojeviIBrojneImeniceComponent } from './kvizovi/grammar/brojevi-i-brojne-imenice/brojevi-i-brojne-imenice.component';
 import { GlagolJesamComponent } from './kvizovi/grammar/glagol-jesam/glagol-jesam.component';
 import { MnozinaImenicaComponent } from './kvizovi/grammar/mnozina-imenica/mnozina-imenica.component';
+import { PokazneZameniceComponent } from './kvizovi/grammar/pokazne-zamenice/pokazne-zamenice.component';
 import { RodImenicaComponent } from './kvizovi/grammar/rod-imenica/rod-imenica.component';
 import { VokalizacijaPoluglasnikaComponent } from './kvizovi/grammar/vokalizacija-poluglasnika/vokalizacija-poluglasnika.component';
 import { VokativComponent } from './kvizovi/grammar/vokativ/vokativ.component';
@@ -21,6 +22,7 @@ import { DaniUNedeljiComponent } from './kvizovi/vocab/dani-u-nedelji/dani-u-ned
 import { LazniPrijateljiComponent } from './kvizovi/vocab/lazni-prijatelji/lazni-prijatelji.component';
 import { LjudskoTeloComponent } from './kvizovi/vocab/ljudsko-telo/ljudsko-telo.component';
 import { SinonimiTurcizmiComponent } from './kvizovi/vocab/sinonimi-turcizmi/sinonimi-turcizmi.component';
+import { UstaljeniIzraziComponent } from './kvizovi/vocab/ustaljeni-izrazi/ustaljeni-izrazi.component';
 import { ZivotinjeComponent } from './kvizovi/zivotinje/zivotinje.component';
 import { MindYourLanguageComponent } from './mind-your-language/mind-your-language.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -41,6 +43,7 @@ const routes: Routes = [
   {path: "mind-your-language", component: MindYourLanguageComponent},
   {path: "list-of-users", component: ListOfUsersComponent, canActivate: [AdminGuard]},
   {path: "scoreboard", component: ScoreboardComponent, canActivate: [AuthGuard]},
+
   {path: "quiz/vocabulary/insekti", component: InsektiComponent},
   {path: "quiz/vocabulary/zivotinje", component: ZivotinjeComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/kuhinja", component: KuhinjaComponent, canActivate: [AuthGuard]},
@@ -51,6 +54,8 @@ const routes: Routes = [
   {path: "quiz/vocabulary/dani-u-nedelji", component: DaniUNedeljiComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/lazni-prijatelji", component: LazniPrijateljiComponent, canActivate: [AuthGuard]},
   {path: "quiz/vocabulary/ljudsko-telo", component: LjudskoTeloComponent, canActivate: [AuthGuard]},
+  {path: "quiz/vocabulary/ustaljeni-izrazi", component: UstaljeniIzraziComponent, canActivate: [AuthGuard]},
+  
   {path: "quiz/grammar/radni-glagolski-pridev", component: RadniGlagolskiPridevComponent},
   {path: "quiz/grammar/refleksi-sonantnog-l", component: RefleksiSonantnogLComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/brojevi-i-brojne-imenice", component: BrojeviIBrojneImeniceComponent, canActivate: [AuthGuard]},
@@ -59,12 +64,15 @@ const routes: Routes = [
   {path: "quiz/grammar/glagol-jesam", component: GlagolJesamComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/rod-imenica", component: RodImenicaComponent, canActivate: [AuthGuard]},
   {path: "quiz/grammar/mnozina-imenica", component: MnozinaImenicaComponent, canActivate: [AuthGuard]},
+  {path: "quiz/grammar/pokazne-zamenice", component: PokazneZameniceComponent, canActivate: [AuthGuard]},
+  
   {path: "quiz/text/mlogo-s6m-se-muchila", component: MlogoS6mSeMuchilaComponent},
   {path: "quiz/text/mlogo-s6m-se-muchila-kviz", component: MlogoS6mSeMuchilaKvizComponent},
   {path: "quiz/text/ima-nauka-a-ima-i-oduka", component: ImaNaukaAImaIOdukaComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/ima-nauka-a-ima-i-oduka-kviz", component: ImaNaukaAImaIOdukaKvizComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/ovoj-si-tekje-poche-da-se-osnura", component: OvojSiTekjePocheDaSeOsnuraComponent, canActivate: [AuthGuard]},
   {path: "quiz/text/ovoj-si-tekje-poche-da-se-osnura-kviz", component: OvojSiTekjePocheDaSeOsnuraKvizComponent, canActivate: [AuthGuard]},
+  
   {path: "**", component: RegistrationComponent}
 ];
 

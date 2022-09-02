@@ -100,6 +100,11 @@
                     routerLink="/quiz/vocabulary/ljudsko-telo">10</button>
                 <span> - људско тело</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
+            <div class="col-md-2 column">
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
+                    routerLink="/quiz/vocabulary/ustaljeni-izrazi">11</button>
+                <span> - устаљени изрази</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
         </div>
         <br /><br />
         <div class="row">
@@ -142,6 +147,11 @@
                 <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                 routerLink="/quiz/grammar/mnozina-imenica">08</button>
                 <span> - множина именица</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-2 column">
+                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
+                routerLink="/quiz/grammar/pokazne-zamenice">09</button>
+                <span> - показне заменице</span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
         <br/><br/>
