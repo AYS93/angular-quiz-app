@@ -1,6 +1,6 @@
 {
     "questions": [{
-            "questionText": "Споји појам са одговарајућом сликом: \"ешѐк\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"驴\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg",
                     "correct": true
@@ -15,7 +15,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"арсла̀н\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"狮子\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Bactrian_Camel.jpg"
                 },
@@ -33,7 +33,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"шота̀н\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"鸭子\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/White_Stork_RWD.jpg/1280px-White_Stork_RWD.jpg"
                 },
@@ -51,7 +51,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"штръ̀к\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"鹳\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kampfadler_02.jpg/1280px-Kampfadler_02.jpg"
                 },
@@ -69,49 +69,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"штръко̀љ\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg/1024px-Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/White_Stork_RWD.jpg/1280px-White_Stork_RWD.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Gemeine_Viehbremse_Tabanus_bromius_1.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cross-eyed_owl.jpg/1024px-Cross-eyed_owl.jpg"
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"оръ̀л\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/0/06/Falco_eleonorae_Balearic_Islands.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ducks_in_plymouth%2C_massachusetts.jpg/1024px-Ducks_in_plymouth%2C_massachusetts.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cross-eyed_owl.jpg/1024px-Cross-eyed_owl.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/White_Stork_RWD.jpg/1280px-White_Stork_RWD.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kampfadler_02.jpg/1280px-Kampfadler_02.jpg",
-                    "correct": true
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"тера̀еж\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"刺猬\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Eur%C3%B3pai_s%C3%BCn.jpg",
                     "correct": true
@@ -129,31 +87,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"жѐљка\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Meeresschildkr%C3%B6te.jpg/1024px-Meeresschildkr%C3%B6te.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Eur%C3%B3pai_s%C3%BCn.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mustela_nivalis_-British_Wildlife_Centre-4.jpg/899px-Mustela_nivalis_-British_Wildlife_Centre-4.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cross-eyed_owl.jpg/1024px-Cross-eyed_owl.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Water_vole_-_Arvicola_amphibius_2a.jpg/960px-Water_vole_-_Arvicola_amphibius_2a.jpg"
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"шкра̀пља\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"蠍子\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mustela_nivalis_-British_Wildlife_Centre-4.jpg/899px-Mustela_nivalis_-British_Wildlife_Centre-4.jpg"
                 },
@@ -171,7 +105,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"невестỳљка\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"伶鼬\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cross-eyed_owl.jpg/1024px-Cross-eyed_owl.jpg"
                 },
@@ -192,31 +126,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"шта̀воръц\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Bactrian_Camel.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg/1024px-Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mustela_nivalis_-British_Wildlife_Centre-4.jpg/899px-Mustela_nivalis_-British_Wildlife_Centre-4.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Water_vole_-_Arvicola_amphibius_2a.jpg/960px-Water_vole_-_Arvicola_amphibius_2a.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Eur%C3%B3pai_s%C3%BCn.jpg"
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"крътѝњък\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"鼴鼠\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
                 },
@@ -229,24 +139,6 @@
                 },
                 {
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Water_vole_-_Arvicola_amphibius_2a.jpg/960px-Water_vole_-_Arvicola_amphibius_2a.jpg"
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"кръљѐж\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/9/93/Black_scorpion.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/2/29/Amblyomma_americanum_tick.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/b/b1/CSIRO_ScienceImage_10564_The_black_rat_Rattus_rattus.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Meeresschildkr%C3%B6te.jpg/1024px-Meeresschildkr%C3%B6te.jpg"
                 }
             ],
             "explanation": ""

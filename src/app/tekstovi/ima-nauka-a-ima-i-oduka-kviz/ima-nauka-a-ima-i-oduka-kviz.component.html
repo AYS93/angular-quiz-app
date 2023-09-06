@@ -2,16 +2,15 @@
     <div class="card">
         <div class="d-flex justify-content-between p-3">
             <div class="image">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Macedonia_-_ethnic.svg"
-                    alt="nema slike" width="90">
+                中国制造
             </div>
             <div class="quiz-header">
-                <h4 style="font-family: cursive;">текст - Има наука, а има и одука</h4>
+                <h4 style="font-family: cursive;">текст</h4>
                 <ng-container *ngIf="name !== null">
                     <span style="font-style: italic;">Корисник: {{name}}</span>
                 </ng-container>
                 <ng-container *ngIf="name === null">
-                    <span style="font-style: italic;">Корисник: Не сте пријавени!</span>
+                    <span style="font-style: italic;">Корисник: Нисте пријављени!</span>
                 </ng-container>
             </div>
         </div>
@@ -62,18 +61,18 @@
                 style="width: 50%;" class="img-fluid col-sm-12 mx-auto">
 
                 <div class="result text-center col-md-6 col-sm-12">
-                    <h3>Честитке <br> за завръшен квиз!<br>Резултат си га мож видите по-доле:</h3><br>
-                    <p>Укупън број питања: {{questionList.length}}</p>
-                    <p>Број тачни одговори: {{correctAnswer}} </p>
-                    <p>Број нетачни одговори: {{incorrectAnswer}} </p>
-                    <p>Број бодови: {{points}} </p>
+                    <h3>Честитамо <br> на завршеном квизу!<br>Ваш резултат можете видети испод:</h3><br>
+                    <p>Укупан број питања: {{questionList.length}}</p>
+                    <p>Број тачних одговора: {{correctAnswer}} </p>
+                    <p>Број нетачних одговора: {{incorrectAnswer}} </p>
+                    <p>Број бодова: {{points}} </p>
                     <br>
-                    <button class="btn btn-success" (click)="saveScore()" routerLink="/welcome">погледни ги остали квизови</button>
+                    <button class="btn btn-success" (click)="saveScore()" routerLink="/welcome">погледај остале квизове</button>
                     <br><br>
                     <button class="btn btn-success" (click)="resetQuiz()"><i
-                        class="fa fa-refresh" aria-hidden="true"></i> решавај га па̀ овъј квиз</button>
+                        class="fa fa-refresh" aria-hidden="true"></i> понови овај квиз</button>
                     <br><br>
-                    <button class="btn btn-success" (click)="saveScore()" routerLink="/quiz/text/ima-nauka-a-ima-i-oduka">прочитај га па̀ овъј текст</button>
+                    <button class="btn btn-success" (click)="saveScore()" routerLink="/quiz/text/ima-nauka-a-ima-i-oduka">прочитај овај текст поново</button>
                 </div>
             </div>
         </ng-container>

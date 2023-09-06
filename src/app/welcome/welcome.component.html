@@ -1,13 +1,11 @@
 <div class="container bg-light py-5">
-    <h1 class="display-6 fw-bold">Школа ПТДГ језика</h1>
-    <p class="col-md-8 fs-4">Школа ПТДГ 
-        (<a routerLink="/info-page"><em>призренско-тимочка дијалекатска група</em></a>) језика је пројекат 
+    <h1 class="display-6 fw-bold">你的语文老师</h1>
+    <p class="col-md-8 fs-4">"Твој учитељ кинеског језика" 
+        (<a routerLink="/info-page"><em>中文</em></a>) је пројекат 
         намењен забавном и активном усвајању поменутог језика путем квизова.<br>
-        Доле ниже можете наћи разноразне квизове који изграђују ваш вокабулар и тестирају ваше познавање граматике 
-        ових говора, а за напредније студенте ту су и краћи текстови са питањима.<br>
-        Акценат је стављен претежно на призренско-јужноморавски дијалекат, конкретније на јужноморавски поддијалекат 
-        (уз одређене примесе других призренско-јужноморавских говора, као и других ПТДГ говора уопште).<br>
-        Детаљнији преглед особина различитих ПТДГ говора можете наћи <a routerLink="/mind-your-language"><em>овде</em></a>.
+        Доле ниже можете наћи разноразне квизове који изграђују ваш вокабулар и тестирају ваше познавање граматике, 
+        а за напредније студенте ту су и краћи текстови са питањима.<br><br>
+        Детаљнији преглед особина кинеског језика можете наћи <a routerLink="/mind-your-language"><em>овде</em></a>.
     </p>
     <h4>Правила квизова:</h4>
     <ol>
@@ -19,7 +17,6 @@
         <li>Уколико желите приступ свим квизовима морате бити пријављени на Ваш налог</li>
     </ol>
     <h1 style="font-family: 'Lucida Grande'; text-align: center;">срећно учење!</h1>
-    <p style="font-family: tahoma;">DELETE AFTERWARDS: ъ̀ а̀ ѝ ѐ о̀ ỳ й ă </p>
 
     <div class="name col-md-4 my-3">
         <ng-container *ngIf="loggedIn === false">
@@ -53,121 +50,38 @@
             <h3>Грађење речника</h3><br />
             <div class="col-md-2 column">
                 <button class="btn btn-success btn-lg" routerLink="/quiz/vocabulary/insekti">01</button>
-                <span> - инсекти</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
                 <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
                     routerLink="/quiz/vocabulary/zivotinje">02</button>
-                <span> - животиње</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
                 <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/kuhinja">03</button>
-                <span> - кухиња</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/ptice">04</button>
-                <span> - птице</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/sinonimi_meseci">05</button>
-                <span> - синоними - месеци у години</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/sinonimi_turcizmi">06</button>
-                <span> - синоними - турцизми</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/albanizmi">07</button>
-                <span> - албанизми</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/dani-u-nedelji">08</button>
-                <span> - дани у недељи</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/lazni-prijatelji">09</button>
-                <span> - лажни пријатељи</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/ljudsko-telo">10</button>
-                <span> - људско тело</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                    routerLink="/quiz/vocabulary/ustaljeni-izrazi">11</button>
-                <span> - устаљени изрази</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    routerLink="/quiz/vocabulary/dani-u-nedelji">03</button>
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
         <br /><br />
         <div class="row">
             <h3>Квизови из граматике</h3><br />
             <div class="col-md-2 column">
-                <button class="btn btn-success btn-lg" routerLink="/quiz/grammar/radni-glagolski-pridev">01</button>
-                <span> - радни глаголски придев</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg" 
-                routerLink="/quiz/grammar/refleksi-sonantnog-l">02</button>
-                <span> - рефлекси слоготворног л</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button  class="btn btn-success btn-lg" routerLink="/quiz/grammar/glagol-jesam">01</button>
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             <div class="col-md-2 column">
                 <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/brojevi-i-brojne-imenice">03</button>
-                <span> - бројеви и бројне именице</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/vokativ">04</button>
-                <span> - вокатив</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/vokalizacija-poluglasnika">05</button>
-                <span> - вокализација полугласника</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/glagol-jesam">06</button>
-                <span> - глагол јесам</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/rod-imenica">07</button>
-                <span> - род именица</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/mnozina-imenica">08</button>
-                <span> - множина именица</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/grammar/pokazne-zamenice">09</button>
-                <span> - показне заменице</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                routerLink="/quiz/grammar/vokativ">02</button>
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
         <br/><br/>
         <div class="row">
             <h3>Текстови</h3><br />
             <div class="col-md-2 column">
-                <button class="btn btn-success btn-lg" 
-                routerLink="/quiz/text/mlogo-s6m-se-muchila">01</button><span> - Мло̀го съм се мучѝла</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/text/ima-nauka-a-ima-i-oduka">02</button><span> - Ѝма на̀ука, а ѝма и о̀дука</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            </div>
-            <div class="col-md-2 column">
-                <button [disabled]="loggedIn === false" class="btn btn-success btn-lg"
-                routerLink="/quiz/text/ovoj-si-tekje-poche-da-se-osnura">03</button><span> - Ово̀ј си тѐќе почѐ да се оснỳра</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success btn-lg" routerLink="/quiz/text/ima-nauka-a-ima-i-oduka">01</button>
+                <span></span>&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
         </div>
     </div>

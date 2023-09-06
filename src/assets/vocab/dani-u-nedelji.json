@@ -1,126 +1,126 @@
 {
     "questions": [{
-        "questionText": "Како се на ПТДГ каже: \"недеља\"?",
+        "questionText": "недеља",
         "options": [{
-                "text": "недѐља",
+                "text": "星期日",
                 "correct": true
             },
             {
-                "text": "нѐдеља"
+                "text": "星期一"
             },
             {
-                "text": "недѐлја"
+                "text": "星期二"
             },
             {
-                "text": "недѐљник"
+                "text": "星期四"
             }
         ],
         "explanation": ""
     },
     {
-        "questionText": "Како се на ПТДГ каже: \"понедељак\"?",
+        "questionText": "понедељак",
         "options": [{
-                "text": "понедѐљник",
+                "text": "星期一",
                 "correct": true
             },
             {
-                "text": "понедѐљак"
+                "text": "星期四"
             },
             {
-                "text": "понедѐљък"
+                "text": "星期六"
             },
             {
-                "text": "понѐдељник"
+                "text": "星期日"
             }
         ],
         "explanation": ""
     },
     {
-        "questionText": "Како се на ПТДГ НЕ каже: \"уторак\"?",
+        "questionText": "уторак",
         "options": [{
-                "text": "уто̀рник"
+                "text": "星期天"
             },
             {
-                "text": "вторнѝк"
+                "text": "星期三"
             },
             {
-                "text": "торнѝк"
+                "text": "星期五"
             },
             {
-                "text": "ỳторък",
-                "correct": true
-            }
-        ],
-        "explanation": ""
-    },
-    {
-        "questionText": "Како се на ПТДГ каже: \"среда\"?",
-        "options": [{
-                "text": "средỳља"
-            },
-            {
-                "text": "средња̀к"
-            },
-            {
-                "text": "среднѝк"
-            },
-            {
-                "text": "срѐда",
+                "text": "星期二",
                 "correct": true
             }
         ],
         "explanation": ""
     },
     {
-        "questionText": "Како се на ПТДГ каже: \"четвртак\"?",
+        "questionText": "среда",
         "options": [{
-                "text": "четвръ̀так"
+                "text": "星期五"
             },
             {
-                "text": "четвръ̀ток"
+                "text": "星期六"
             },
             {
-                "text": "четвръ̀тък",
+                "text": "星期天"
+            },
+            {
+                "text": "星期三",
                 "correct": true
-            },
-            {
-                "text": "четвръ̀тка"
             }
         ],
         "explanation": ""
     },
     {
-        "questionText": "Како се на ПТДГ каже: \"петак\"?",
+        "questionText": "четвртак",
         "options": [{
-                "text": "пѐтак"
+                "text": "星期日"
             },
             {
-                "text": "пѐтък",
+                "text": "星期五"
+            },
+            {
+                "text": "星期四",
                 "correct": true
             },
             {
-                "text": "петнѝк"
-            },
-            {
-                "text": "пѐток"
+                "text": "星期天"
             }
         ],
         "explanation": ""
     },
     {
-        "questionText": "Како се на ПТДГ каже: \"субота\"?",
+        "questionText": "петак",
         "options": [{
-                "text": "сабо̀та"
+                "text": "星期三"
             },
             {
-                "text": "субо̀та",
+                "text": "星期五",
                 "correct": true
             },
             {
-                "text": "събо̀та"
+                "text": "星期六"
             },
             {
-                "text": "сỳбота"
+                "text": "星期日"
+            }
+        ],
+        "explanation": ""
+    },
+    {
+        "questionText": "субота",
+        "options": [{
+                "text": "星期三"
+            },
+            {
+                "text": "星期六",
+                "correct": true
+            },
+            {
+                "text": "星期天"
+            },
+            {
+                "text": "星期二"
             }
         ],
         "explanation": ""

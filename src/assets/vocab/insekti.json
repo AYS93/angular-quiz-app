@@ -1,6 +1,6 @@
 {
     "questions": [{
-            "questionText": "Споји појам са одговарајућом сликом: \"ѕунѕа̀р\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"熊蜂\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg/1024px-Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg",
                     "correct": true
@@ -18,7 +18,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"тата̀бит\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"床蟲\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Adult_bed_bug%2C_Cimex_lectularius.jpg/640px-Adult_bed_bug%2C_Cimex_lectularius.jpg",
                     "correct": true
@@ -36,25 +36,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"ѕунѕа̀рка\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Gemeine_Viehbremse_Tabanus_bromius_1.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Apis_mellifera_flying2.jpg/640px-Apis_mellifera_flying2.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Fly_December_2007-1.jpg/977px-Fly_December_2007-1.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Vespa_crabro09%28js%29%2C_Lodz%28Poland%29.jpg/640px-Vespa_crabro09%28js%29%2C_Lodz%28Poland%29.jpg"
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"штръко̀љ\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"虻属\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Skakavac_zeleni.jpg/617px-Skakavac_zeleni.jpg"
                 },
@@ -72,7 +54,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"ска̀чка\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"蝗虫\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Vespa_crabro09%28js%29%2C_Lodz%28Poland%29.jpg/640px-Vespa_crabro09%28js%29%2C_Lodz%28Poland%29.jpg"
                 },
@@ -90,7 +72,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"пеперỳга\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"蝴蝶\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Platypedia_minor-1.jpg/640px-Platypedia_minor-1.jpg"
                 },
@@ -108,7 +90,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Споји појам са одговарајућом сликом: \"бробѝњък\"",
+            "questionText": "Споји појам са одговарајућом сликом: \"蚂蚁\"",
             "options": [{
                     "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Platypedia_minor-1.jpg/640px-Platypedia_minor-1.jpg"
                 },
@@ -121,42 +103,6 @@
                 {
                     "text": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Ant_Receives_Honeydew_from_Aphid.jpg",
                     "correct": true
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"свѝткавица\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ladybug.jpg/640px-Ladybug.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Moth_September_2008-3.jpg/638px-Moth_September_2008-3.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Platypedia_minor-1.jpg/640px-Platypedia_minor-1.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Luciola_lusitanica_%E2%99%82.jpg",
-                    "correct": true
-                }
-            ],
-            "explanation": ""
-        },
-        {
-            "questionText": "Споји појам са одговарајућом сликом: \"лѝсна въ̀шка\"",
-            "options": [{
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/9/99/Aphididae_%28aka%29.jpg",
-                    "correct": true
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Adult_bed_bug%2C_Cimex_lectularius.jpg/640px-Adult_bed_bug%2C_Cimex_lectularius.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/2/29/Amblyomma_americanum_tick.jpg"
-                },
-                {
-                    "text": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Gemeine_Viehbremse_Tabanus_bromius_1.jpg"
                 }
             ],
             "explanation": ""
